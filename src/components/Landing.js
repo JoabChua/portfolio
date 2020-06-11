@@ -1,8 +1,8 @@
 import React from 'react';
-import './landing.css';
 import Card from './Card';
 import SkillCard from './SkillCard';
 import AnimatedCard from './AnimatedCard';
+import '../stylesheets/landing.css';
 
 const isPrimary = {
   backgroundColor: '#d24a40',
@@ -80,12 +80,12 @@ const Landing = () => {
           <h2 className="subtitle is-size-5-desktop">Here are a few coding projects I've worked on recently. Interested to know more? <a href="mailto:chuaweeliang91@gmail.com">Email me</a>.</h2>
           <div className="project-grid">
             <div className="columns is-multiline is-mobile">
-                <AnimatedCard image={(require('../assets/website/gracelyrics.png'))}
-                  title="Lignt and dark themed christian lyrics websites for all." link="https://hesedwisdom.tech" />
-                <AnimatedCard image={(require('../assets/website/foodorder.png'))}
-                  title="Lightweight food order management for small event." link="https://ionic-training-auth.firebaseapp.com/" />
-                <AnimatedCard image={(require('../assets/website/appsite.png'))}
-                  title="Website that showcase mobile application in full extent." link="https://devjo-apps.firebaseapp.com/" />
+              <AnimatedCard image={(require('../assets/website/gracelyrics.png'))}
+                title="Lignt and dark themed christian lyrics website for all." link="https://hesedwisdom.tech" />
+              <AnimatedCard image={(require('../assets/website/foodorder.png'))}
+                title="Lightweight food order management for small event." link="https://ionic-training-auth.firebaseapp.com/" />
+              <AnimatedCard image={(require('../assets/website/appsite.png'))}
+                title="Website that showcase mobile application in full extent." link="https://devjo-apps.firebaseapp.com/" />
             </div>
           </div>
         </div>

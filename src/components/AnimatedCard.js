@@ -1,5 +1,5 @@
 import React from 'react';
-import './animatedcard.css';
+import '../stylesheets/animatedcard.css';
 
 const AnimatedCard = ({ image, title, link }) => {
   return (

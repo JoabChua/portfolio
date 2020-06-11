@@ -1,0 +1,17 @@
+.tab {
+  background-color: #d24a40;
+  transition: 0.5s ease-in-out;
+}
+
+.tab>span {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.tab:hover>span {
+  color: #d24a40;
+}
+
+.tab:hover {
+  background-color: #d24a40 !important;
+}
