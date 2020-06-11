@@ -1,0 +1,41 @@
+.column-centered {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.fig {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 5px 5px #607D8B;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 3rem;
+  z-index: 1;
+  height: 162px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  background-color: #d24a40;
+}
+
+figcaption>.title {
+  color: #e6e0e0;
+  font-size: 13px !important;
+}
+
+.fig:hover>figcaption {
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
