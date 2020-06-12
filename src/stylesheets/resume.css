@@ -1,0 +1,84 @@
+.mypic {
+  width: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.d-flex-v-center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.divider {
+  border-bottom: 1px solid #4a454538;
+  width: 100%;
+  margin: 10px 0;
+}
+
+ul {
+  margin-left: 2rem;
+  list-style-type: circle;
+}
+
+li {
+  font-size: 13px;
+}
+
+.period {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.m20 {
+  margin-top: 20px;
+}
+
+.company {
+  color: #d24a40;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.subname {
+  color: #d24a40;
+  margin-bottom: 5px;
+}
+
+.section-header {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact {
+  font-size: 10px !important;
+  font-weight: 800;
+}
+
+.pad-v {
+  padding: 15px 0;
+}
+
+.s-header {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.s-para {
+  font-size: 12px;
+}
+
+.bottom-underline {
+  color: #d24a40;
+  font-weight: 800;
+}

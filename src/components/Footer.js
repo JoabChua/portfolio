@@ -8,11 +8,7 @@ const Footer = () => {
         <a href="/" className="logo">
           <img src={require("../assets/header.png")} alt="devjo" width="48" height="48" />
         </a>
-        <div className="columns is-centered">
-          <div className="column is-one-third">
-            <h1 className="subtitle custom-color is-size-4-touch">Living, learning, &amp; leveling up one day at a time.</h1>
-          </div>
-        </div>
+        <h1 className="subtitle custom-color is-size-4-touch">Living, learning, &amp; leveling up one day at a time.</h1>
         <div className="social-icons">
           <p className="field">
             <a className="button is-medium footer-btn" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Joab.Chua">

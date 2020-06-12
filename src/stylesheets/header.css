@@ -1,17 +1,15 @@
 .tab {
-  background-color: #d24a40;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
-.tab>span {
-  color: white;
-  transition: 0.5s ease-in-out;
+.navbar.is-transparent a.navbar-item:hover:hover {
+  background-color: #d24a40 !important;
 }
 
 .tab:hover>span {
-  color: #d24a40;
+  color: gold;
 }
 
-.tab:hover {
-  background-color: #d24a40 !important;
+.tab>span {
+  transition: 0.2s ease-in-out;
 }

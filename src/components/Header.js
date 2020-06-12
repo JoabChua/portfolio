@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../stylesheets/header.css';
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -31,9 +32,12 @@ const Header = () => {
 
         <div id="mobile" className={`navbar-menu ${toggle ? "is-active" : ""}`} style={{ padding: '10px 0' }}>
           <div className="navbar-start">
-            <a className="navbar-item tab has-text-centered" style={navItemExtra} href="/">
+            <NavLink to="/" className="navbar-item tab has-text-centered" style={navItemExtra}>
               <span>Home</span>
-            </a>
+            </NavLink>
+            <NavLink to="/resume" className="navbar-item tab has-text-centered" style={navItemExtra}>
+              <span>Resume</span>
+            </NavLink>
           </div>
           <div className="navbar-end">
             <a className="navbar-item tab has-text-centered" style={navItemExtra} href="mailto:chuaweeliang91@gmail.com">
