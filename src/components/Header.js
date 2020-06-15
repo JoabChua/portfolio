@@ -20,7 +20,7 @@ const Header = () => {
     <nav className="navbar is-transparent">
       <div className="container" style={{ padding: '1.2em 0' }}>
         <div className="navbar-brand">
-          <a className="navbar-item" href="/">
+          <a className="header-logo" href="/">
             <img src={require("../assets/header.png")} alt="devjo" width="32" height="32" />
           </a>
           <div className={`navbar-burger burger ${toggle ? "is-active" : ""}`} data-target="mobile" onClick={toggleMobileNav}>

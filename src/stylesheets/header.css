@@ -13,3 +13,9 @@
 .tab>span {
   transition: 0.2s ease-in-out;
 }
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  padding: .5rem .75rem;
+}

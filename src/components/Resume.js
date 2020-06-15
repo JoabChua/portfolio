@@ -27,20 +27,20 @@ const Resume = () => {
                 <div className="tile">
                   <div className="divider"></div>
                 </div>
-                <section style={{ padding: '2rem 0' }}>
+                <section className="connect">
                   <div className="tile container is-vertical">
                     <div className="tile is-vertical">
-                      <p className="d-flex-v-center pad-v">
+                      <a className="d-flex-v-center pad-v" href="mailto:chuaweeliang91@gmail.com">
                         <img src={require('../assets/icons/mail.png')} alt="email" width="48" />
-                      </p>
+                      </a>
                       <p className="has-text-centered contact">Email: chuaweeliang91@gmail.com</p>
                     </div>
                   </div>
                   <div className="tile container is-vertical m20">
                     <div className="tile is-vertical">
-                      <p className="d-flex-v-center pad-v">
+                      <a className="d-flex-v-center pad-v" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joabchua/">
                         <img src={require('../assets/icons/linkedin.png')} alt="email" width="48" />
-                      </p>
+                      </a>
                       <p className="has-text-centered contact">https://www.linkedin.com/in/joabchua/</p>
                     </div>
                   </div>
