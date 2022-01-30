@@ -218,7 +218,6 @@ const Landing = () => {
                 }}
               />
               <div className="column is-12-mobile is-half-tablet is-one-third-desktop level-item no-pad"></div>
-              <div className="column is-12-mobile is-half-tablet is-one-third-desktop level-item no-pad"></div>
             </div>
           </div>
 
