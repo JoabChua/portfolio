@@ -5,8 +5,8 @@ import "bulma/css/bulma.css";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Landing from "./components/Landing";
-import Resume from "./components/Resume";
+import Landing from "./pages/Landing";
+import Resume from "./pages/Resume";
 import Blog from "./pages/Blog";
 
 const App = () => {

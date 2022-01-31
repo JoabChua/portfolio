@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "./Card";
-import SkillCard from "./SkillCard";
-import AnimatedCard from "./AnimatedCard";
+import Card from "../components/Card";
+import SkillCard from "../components/SkillCard";
+import AnimatedCard from "../components/AnimatedCard";
 import "../stylesheets/landing.css";
 
 const isPrimary = {
