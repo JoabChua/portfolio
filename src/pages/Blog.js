@@ -15,6 +15,7 @@ const Blog = () => {
     if (data.status === "ok") {
       setPosts(data);
     }
+    console.log(data);
   };
   return (
     <div>
@@ -24,7 +25,9 @@ const Blog = () => {
             <React.Fragment>
               <div>
                 <div>
-                  <h1>{posts?.feed?.title}</h1>
+                  <h1 style={{ fontSize: "30px", fontWeight: "700" }}>
+                    Stories on Medium
+                  </h1>
                 </div>
                 <section className="section has-text-centered">
                   <div className="container is-narrow">
