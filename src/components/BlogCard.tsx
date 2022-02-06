@@ -1,6 +1,8 @@
-import React from "react";
-
-const BlogCard = ({ thumbnail, title, link }) => {
+const BlogCard: React.FC<{
+  thumbnail: string;
+  title: string;
+  link: string;
+}> = ({ thumbnail, title, link }) => {
   return (
     <div className="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
       <div

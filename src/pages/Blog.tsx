@@ -1,8 +1,25 @@
 import React, { useEffect, useState } from "react";
 import BlogCard from "../components/BlogCard";
 
+interface BlogPostItem {
+  title: string;
+  pubDate: string;
+  link: string;
+  guid: string;
+  author: string;
+  thumbnail: string;
+  description: string;
+  content: string;
+  categories: string[];
+}
+
+interface MediumRSS {
+  items: BlogPostItem[];
+  status: string;
+}
+
 const Blog = () => {
-  const [posts, setPosts] = useState({});
+  const [posts, setPosts] = useState<MediumRSS>({} as MediumRSS);
   useEffect(() => {
     getMediumPosts();
   }, []);
@@ -33,7 +50,7 @@ const Blog = () => {
                   <div className="container is-narrow">
                     <div className="startup-grid">
                       <div className="columns is-multiline level">
-                        {posts?.items?.map((post) => {
+                        {posts?.items?.map((post: BlogPostItem) => {
                           return (
                             <BlogCard
                               key={post.guid}

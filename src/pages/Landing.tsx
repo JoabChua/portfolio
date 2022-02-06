@@ -1,4 +1,4 @@
-import React from "react";
+import { ReactComponent as DevSVG } from "../assets/dev.svg";
 import Card from "../components/Card";
 import SkillCard from "../components/SkillCard";
 import AnimatedCard from "../components/AnimatedCard";
@@ -41,11 +41,7 @@ const Landing = () => {
         </div>
         <div className="hero-foot">
           <div className="container">
-            <img
-              src={require("../assets/dev.svg")}
-              alt="development"
-              className="is-bottom"
-            />
+            <DevSVG className="is-bottom" style={{ maxWidth: "100%" }} />
           </div>
         </div>
       </section>
